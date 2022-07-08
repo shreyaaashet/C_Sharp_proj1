@@ -1,4 +1,6 @@
 ﻿using CarFile;
+using Class2;
+using Constructor;
 
 
 Console.WriteLine("Hello, World!");
@@ -103,3 +105,17 @@ Car newCar = new Car();
 Console.WriteLine(newCar.color);
 //
 newCar.Shout();
+
+
+// class2
+
+myClass newClass = new myClass();
+
+newClass.method1();
+
+// 
+Constructort newC = new Constructort();
+
+Console.WriteLine(newC.model);
+
+
